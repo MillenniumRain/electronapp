@@ -1,0 +1,20 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "main": "src/main/dist/renderrer-bundle.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm-run-all build run-electron",
+    "build": "webpack --config webpack.config.js",
+    "run-electron" : "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron": "^12.0.5",
+    "npm-run-all": "^4.1.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

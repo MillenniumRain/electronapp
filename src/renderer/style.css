@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 0.2rem;
+}
+.post {
+    padding: 0 10px;
+}
+.container > button {
+    line-height: 0.8 !important;
+}
+.delete-item {
+    /* width: 20px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    line-height: 0.5;
+}
+.list:hover {
+    background-color: rgb(231, 229, 229);
+}
+body {
+    background: #007bff;
+    padding: 15px;
+}
+.container {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 15px;
+    margin: 0 auto;
+}
+.buttons {
+    margin-bottom: 15px;
+}
